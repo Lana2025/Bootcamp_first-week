@@ -59,7 +59,8 @@ a:hover {
   }
   .shadow_block{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-    margin: 0 10px;      
+    margin: 0 5px;
+    margin-top: 50px;      
     }
     
     
@@ -67,8 +68,8 @@ a:hover {
     padding: 60px 0;
   }
   .why-dance{
-    margin-right:5px;  
-    padding-left: 10px;  
+    margin: 0 15px;  
+    padding: 5px; 
   }
   .feature{
     background-color: #0000FF!important;
@@ -172,4 +173,9 @@ a:hover {
   .row-flex {
     display: flex;
     flex-flow: row wrap;
+  }
+  @media only screen and (max-width: 720px){
+    .shadow_block{
+      width: 700px;
+    }
   }
